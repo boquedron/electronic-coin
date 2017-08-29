@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite-Example"  thread-count="1">
+	<!-- Browser (enumBrowser): FIREFOX, IEXPLORER, EDGE, CHROME, SAFARI, OPERA, PHANTOMJS, 
+		NONE -->
+	<!-- Platforms (enumPlataforma): ANDROID, ANY, EL_CAPITAN, LINUX, MAC,MAVERICKS, MOUNTAIN_LION, SIERRA,SNOW_LEOPARD, 
+		UNIX, VISTA, WIN10, WIN8, WIN8_1, WINDOWS,XP, YOSEMITE -->
+<!-- browserVersion -->
+<!-- enumEnvironment: LOCAL, SELENIUM_HUB -->
+
+	<test name="ChromeDemo">		
+		<classes>
+			<class name="es.sinproblema.TestCurrencies" />
+		</classes>
+	</test>
+
+</suite>
+
+
